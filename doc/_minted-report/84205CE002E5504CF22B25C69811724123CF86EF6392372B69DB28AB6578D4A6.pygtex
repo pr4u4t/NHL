@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{nhl}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}timeOnIce\PYGZsq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{nhl}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}timeOnIce\PYGZsq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{str}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}.\PYGZsq{}}\PYG{p}{)}\PYG{o}{.}\PYG{n}{str}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}
+\PYG{n}{nhl}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}timeOnIce\PYGZsq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{nhl}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}timeOnIce\PYGZsq{}}\PYG{p}{]}\PYG{o}{.}\PYG{n}{str}\PYG{o}{.}\PYG{n}{split}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}:\PYGZsq{}}\PYG{p}{)}\PYG{o}{.}\PYG{n}{apply}\PYG{p}{(}\PYG{k}{lambda} \PYG{n}{x}\PYG{p}{:} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n}{x}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{])} \PYG{o}{*} \PYG{l+m+mi}{60} \PYG{o}{+} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n}{x}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]))}
+\end{Verbatim}

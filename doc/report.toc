@@ -1,0 +1,21 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Getting started}{2}{section.1.1}%
+\contentsline {subsubsection}{Brief}{2}{section*.2}%
+\contentsline {subsection}{\numberline {1.1.1}Method}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Data Resource}{2}{subsection.1.1.2}%
+\contentsline {chapter}{\numberline {2}Data and Methods}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Data}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Data Mining}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Data storage}{3}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Data fetch from database}{4}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Data cleansing and transformation}{4}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Data normalization}{4}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Testing data}{5}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}Data split}{5}{subsection.2.1.7}%
+\contentsline {section}{\numberline {2.2}Method}{5}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Results and Discussion}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Results}{6}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Discussion}{6}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Conclusion and References}{8}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Conclusion}{8}{section.4.1}%
+\contentsline {section}{\numberline {4.2}References}{8}{section.4.2}%

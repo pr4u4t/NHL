@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{SELECT}\PYG{+w}{ }\PYG{n}{person}\PYG{p}{.}\PYG{n}{id}\PYG{p}{,}\PYG{n}{person}\PYG{p}{.}\PYG{n}{positionCode}\PYG{p}{,}\PYG{n}{person}\PYG{p}{.}\PYG{n}{weight}\PYG{p}{,}\PYG{n}{person}\PYG{p}{.}\PYG{n}{height}\PYG{p}{,}\PYG{n}{person}\PYG{p}{.}\PYG{n}{shootsCatches}\PYG{p}{,}
+\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{timeOnIce}\PYG{p}{,}\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{assists}\PYG{p}{,}\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{goals}\PYG{p}{,}\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{shots}\PYG{p}{,}
+\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{hits}\PYG{p}{,}\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{powerPlayGoals}\PYG{p}{,}\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{powerPlayAssists}\PYG{p}{,}
+\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{penaltyMinutes}\PYG{p}{,}\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{faceOffWins}\PYG{p}{,}\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{faceoffTaken}\PYG{p}{,}
+\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{takeaways}\PYG{p}{,}\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{giveaways}\PYG{p}{,}\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{shortHandedGoals}\PYG{p}{,}
+\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{shortHandedAssists}\PYG{p}{,}\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{blocked}\PYG{p}{,}\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{plusMinus}\PYG{p}{,}
+\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{evenTimeOnIce}\PYG{p}{,}\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{powerPlayTimeOnIce}\PYG{p}{,}
+\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{shortHandedTimeOnIce}\PYG{+w}{ }\PYG{k}{FROM}\PYG{+w}{ }\PYG{n}{person}\PYG{p}{,}\PYG{n}{skaterStats}\PYG{+w}{ }\PYG{k}{WHERE}\PYG{+w}{ }\PYG{n}{person}\PYG{p}{.}\PYG{n}{positionCode}\PYG{+w}{ }\PYG{o}{!=}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}G\PYGZsq{}}\PYG{+w}{ }\PYG{k}{AND}\PYG{+w}{ }\PYG{n}{person}\PYG{p}{.}\PYG{n}{id}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{skaterStats}\PYG{p}{.}\PYG{n}{playerId}
+\end{Verbatim}

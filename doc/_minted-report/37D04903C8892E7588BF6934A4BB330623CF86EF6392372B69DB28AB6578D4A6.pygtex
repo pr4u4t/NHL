@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{sklearn.feature\PYGZus{}selection} \PYG{k+kn}{import} \PYG{n}{VarianceThreshold}
+\PYG{n}{selector} \PYG{o}{=} \PYG{n}{VarianceThreshold}\PYG{p}{()}
+\PYG{n}{selector}\PYG{o}{.}\PYG{n}{fit\PYGZus{}transform}\PYG{p}{(}\PYG{n}{kb\PYGZus{}features}\PYG{p}{)}
+\PYG{n}{selector}\PYG{o}{.}\PYG{n}{get\PYGZus{}feature\PYGZus{}names\PYGZus{}out}\PYG{p}{()}
+
+\PYG{n}{array}\PYG{p}{([}\PYG{l+s+s1}{\PYGZsq{}id\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}weight\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}height\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}shootsCatches\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}timeOnIce\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}assists\PYGZsq{}}\PYG{p}{,}
+       \PYG{l+s+s1}{\PYGZsq{}goals\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}shots\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}hits\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}powerPlayGoals\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}powerPlayAssists\PYGZsq{}}\PYG{p}{,}
+       \PYG{l+s+s1}{\PYGZsq{}penaltyMinutes\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}faceOffWins\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}faceoffTaken\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}takeaways\PYGZsq{}}\PYG{p}{,}
+       \PYG{l+s+s1}{\PYGZsq{}giveaways\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}shortHandedGoals\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}shortHandedAssists\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}blocked\PYGZsq{}}\PYG{p}{,}
+       \PYG{l+s+s1}{\PYGZsq{}plusMinus\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}evenTimeOnIce\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}powerPlayTimeOnIce\PYGZsq{}}\PYG{p}{,}
+       \PYG{l+s+s1}{\PYGZsq{}shortHandedTimeOnIce\PYGZsq{}}\PYG{p}{],} \PYG{n}{dtype}\PYG{o}{=}\PYG{n+nb}{object}\PYG{p}{)}
+\end{Verbatim}

@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{warnings}
+\PYG{n}{warnings}\PYG{o}{.}\PYG{n}{filterwarnings}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}ignore\PYGZdq{}}\PYG{p}{)}
+\PYG{k+kn}{from} \PYG{n+nn}{sklearn.model\PYGZus{}selection} \PYG{k+kn}{import} \PYG{n}{cross\PYGZus{}val\PYGZus{}score}
+\PYG{k+kn}{from} \PYG{n+nn}{sklearn.tree} \PYG{k+kn}{import} \PYG{n}{DecisionTreeClassifier}
+\PYG{k+kn}{from} \PYG{n+nn}{sklearn.model\PYGZus{}selection} \PYG{k+kn}{import} \PYG{n}{train\PYGZus{}test\PYGZus{}split}
+\PYG{k+kn}{from} \PYG{n+nn}{sklearn.svm} \PYG{k+kn}{import} \PYG{n}{LinearSVC}
+\PYG{k+kn}{from} \PYG{n+nn}{sklearn.pipeline} \PYG{k+kn}{import} \PYG{n}{Pipeline}
+\PYG{k+kn}{from} \PYG{n+nn}{sklearn.preprocessing} \PYG{k+kn}{import} \PYG{n}{StandardScaler}
+
+\PYG{n}{pipe} \PYG{o}{=} \PYG{n}{Pipeline}\PYG{p}{([(}\PYG{l+s+s1}{\PYGZsq{}scaler\PYGZsq{}}\PYG{p}{,} \PYG{n}{StandardScaler}\PYG{p}{()),} \PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}svc\PYGZsq{}}\PYG{p}{,} \PYG{n}{LinearSVC}\PYG{p}{())])}
+\PYG{n}{pipe}\PYG{o}{.}\PYG{n}{fit}\PYG{p}{(}\PYG{n}{X\PYGZus{}train}\PYG{p}{,} \PYG{n}{Y\PYGZus{}train}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Accuracy }\PYG{l+s+si}{\PYGZob{}:.2f\PYGZcb{}}\PYG{l+s+s2}{\PYGZpc{}\PYGZdq{}}\PYG{o}{.}\PYG{n}{format}\PYG{p}{(}\PYG{n}{pipe}\PYG{o}{.}\PYG{n}{score}\PYG{p}{(}\PYG{n}{X\PYGZus{}test}\PYG{p}{,} \PYG{n}{Y\PYGZus{}test}\PYG{p}{)}\PYG{o}{*}\PYG{l+m+mi}{100}\PYG{p}{))}
+\end{Verbatim}

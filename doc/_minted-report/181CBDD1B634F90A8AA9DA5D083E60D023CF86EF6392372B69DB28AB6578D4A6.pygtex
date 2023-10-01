@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{nhl}\PYG{o}{.}\PYG{n}{shootsCatches} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{Categorical}\PYG{p}{(}\PYG{n}{pd}\PYG{o}{.}\PYG{n}{factorize}\PYG{p}{(}\PYG{n}{nhl}\PYG{o}{.}\PYG{n}{shootsCatches}\PYG{p}{)[}\PYG{l+m+mi}{0}\PYG{p}{])}
+\end{Verbatim}
